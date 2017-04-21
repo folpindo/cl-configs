@@ -1,0 +1,1 @@
+kubectl --kubeconfig=kubeconfig --namespace=<ns> create configmap nginxconfigmap --from-file=/path/to/nginx/default

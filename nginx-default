@@ -1,0 +1,11 @@
+{
+  listen 80;
+
+  root /usr/share/nginx;
+  index index.html index.htm;
+  server_name localhost;
+
+  location / {
+    proxy_pass http://10.3.0.59:5601;
+  }
+}
